@@ -1,6 +1,6 @@
 # MemeGenerator React App
 
-This project is part of the learning journey from Scrimba's The Frontend Developer Career Path, specifically the React Basic Section taught by [Bob Ziroll](https://twitter.com/bobziroll).
+This project is part of the learning journey from [Scrimba's](https://scrimba.com/) The Frontend Developer Career Path, specifically the React Basic Section taught by [Bob Ziroll](https://twitter.com/bobziroll).
 
 ## Description
 
