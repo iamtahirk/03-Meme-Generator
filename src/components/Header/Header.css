@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.875rem;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: .875rem;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 2rem;
+    font-family: Karla;
+    font-weight: 700;
+}
+
+header p {
+    color: white;
+    font-size: .875rem;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}

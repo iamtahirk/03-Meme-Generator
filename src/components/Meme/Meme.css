@@ -1,0 +1,106 @@
+main {
+    padding: 2rem 2.25rem;
+}
+
+.inputs-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.inputs {
+    width: 46%;
+}
+
+.inputs label {
+    display: block;
+    color: #374151;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: left;
+    width: 100%;
+    padding-bottom: .4rem;
+}
+
+.inputs input {
+    color: var(--gray-500, #6B7280);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    width: 100%;
+    border-radius: 0.3125rem;
+    border: 0.819px solid #D1D5DB;
+    background: #FFF;
+    box-shadow: 0px 0.819px 1.637px 0px rgba(0, 0, 0, 0.05);
+    padding: .6rem .8rem;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    margin-top: 1.875rem;
+    border-radius: 0.3125rem;
+    background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+    width: 100%;
+    padding: 0.625rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #A818DA 1.14%, #711F8D 100%);
+}
+
+button:active {
+    background: linear-gradient(90deg, #A818DA 1.14%, #711F8D 100%);
+    transform: translateY(1px);
+    /* Add a subtle upward shift on click */
+}
+
+main img {
+    margin-top: 2.25rem;
+    width: 100%;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme h2 {
+    font-family: impact, sans-serif;
+    font-size: 3.5rem;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 5px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+                 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.txttop {
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.txtbottom {
+    position: absolute;
+    bottom: 2.25rem;
+    width: 100%;
+    text-align: center;
+}
