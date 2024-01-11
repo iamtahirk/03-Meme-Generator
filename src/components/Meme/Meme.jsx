@@ -17,8 +17,8 @@ export default () => {
             ...prevMeme,
             randomImage:url
         }))
-        meme.topTxt = '';
-        meme.btmText = '';
+        // meme.topTxt = '';
+        // meme.btmText = '';
     }
 
     
